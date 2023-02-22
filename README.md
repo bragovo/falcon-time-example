@@ -8,6 +8,11 @@ ruby 3.1.2p20 (2022-04-12 revision 4491bb740a) [arm64-darwin21]
 
       System Version: macOS 13.1 (22C65)
       Kernel Version: Darwin 22.2.0
+      
+...
+
+brg@AMacbook falcon-time-example % rbenv -v
+rbenv 1.2.0
 ```
 
 ```
