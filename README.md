@@ -23,7 +23,7 @@ brg@AMacbook falcon-time-example % bundle exec falcon serve -b http://0.0.0.0:92
 ### ab with Time
 
 ```
-brg@AMacbook falcon-time-example % wrk http://localhost:9292 
+brg@AMacbook falcon-time-example % ab -n 100 -c 10 http://0.0.0.0:9292/
 
 Concurrency Level:      10
 Time taken for tests:   15.309 seconds
@@ -40,7 +40,8 @@ Transfer rate:          0.41 [Kbytes/sec] received
 ### ab with DateTime 
 
 ```
-brg@AMacbook falcon-time-example % wrk http://localhost:9292 
+brg@AMacbook falcon-time-example % ab -n 100 -c 10 http://0.0.0.0:9292/
+
 Concurrency Level:      10
 Time taken for tests:   0.189 seconds
 Complete requests:      100
